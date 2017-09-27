@@ -1,0 +1,30 @@
+.fill{
+    height: 100vh;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    margin: 5px;
+    font-size: 6vw;
+    color: #ffffff;
+}
+
+#countdown{
+    padding: 2vh 3vh;
+    order: 1;
+    background-color: hsla(0, 0%, 15%, 0.7);
+}
+
+.bg {
+    /* The image used */
+    /* Center and scale the image nicely */
+    background: url("../img/space.jpg") no-repeat center;
+    background-size: cover;
+}
